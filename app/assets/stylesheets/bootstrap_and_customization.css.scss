@@ -1,7 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700|Lora:400,700);
+
+
 $body-bg: #ecf0f1;
-$navbar-inverse-bg: #f39c12;
-$navbar-inverse-link-color: white;
+$font-family-sans-serif: 'Open Sans', Helvetica, Arial, sans-serif;
+$navbar-default-bg: #ffffff;
+$navbar-default-link-color: gray;
+$navbar-default-brand-color: #e74c3c;
 $brand-primary: #e74c3c;
-$jumbotron-bg: #bdc3c7;
+$jumbotron-bg: #ffffff;
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
